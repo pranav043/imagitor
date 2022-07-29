@@ -28,7 +28,7 @@ body{
 }
 .container h2{
   margin-top: -8px;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 500;
   text-align: center;
 }
@@ -149,6 +149,11 @@ body{
   background: #6C757D;
   border: 1px solid #6C757D;
 }
+.controls .remove-img{
+  /* margin-left: 5px; */
+  background: #ff2a00;
+  border: 1px solid #000000;
+}
 .controls .save-img{
   margin-left: 5px;
   background: #5372F0;
@@ -195,7 +200,7 @@ body.dark .container.disable {background: rgb(24, 26, 27);;}
 body.dark .container {background: rgb(24, 26, 27);;}
 
 body.dark h1, body.dark h2,body.dark p {color: #e8e6e3;}
-
+body.dark a {color: #ec7adc;}
 
 .darkLight {
   opacity: 0;
@@ -261,4 +266,21 @@ body.dark .editor-panel button {
 body.dark .reset-filter {
   color: rgb(158, 150, 137);
   border-color: rgb(102, 94, 83);
+}
+
+
+
+
+
+/* for footer */
+
+.footer {
+  /* position: fixed; */
+  position: relative;
+  /* bottom: 0; */
+  font-size: 15px;
+  padding-top: inherit;
+  width: 100%;
+  height: 30px;
+  text-align: center;
 }

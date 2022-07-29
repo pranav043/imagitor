@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Imagitor - Image Editor Imagined</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.jpg">
     <link href="css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
@@ -57,17 +58,20 @@
         <div class="controls">
             <button class="reset-filter">Reset Filters</button>
 
-            <div style="text-align:center" ><button hidden="true" onClick="window.location.reload();" type="button" class="btn btn-danger" id="clearBtn">Clear Window</button> <button hidden="true" type="button" class="btn btn-success" id="downBtn"></button>
 
             <div class="row">
                 <input type="file" class="file-input" accept="image/*" hidden>
                 <button class="choose-img">Choose Image</button>
+                <button class="remove-img" onclick="window.location.reload()">Remove Image</button>
                 <button class="save-img">Save Image</button>
             </div>
         </div>
+        <footer class="footer">
+            Made with ❤ by Pranav Gupta | <a href="https://github.com/pranav043/imagitor">Github Repo</a>
+        </footer>
     </div>
-    
+
     <script src="js/script.js"></script>
-    
+
   </body>
 </html>
