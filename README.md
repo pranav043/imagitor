@@ -1,4 +1,4 @@
-# taskTracker
+# Imagitor
 
 Imagitor an image editing app made using NodeJS, ExpressJS, HTML, CSS.
 
