@@ -7,7 +7,8 @@ const fileInput = document.querySelector('.file-input'),
   previewImg = document.querySelector('.preview-img img'),
   resetFilterBtn = document.querySelector('.reset-filter'),
   chooseImgBtn = document.querySelector('.choose-img'),
-  saveImgBtn = document.querySelector('.save-img')
+  saveImgBtn = document.querySelector('.save-img'),
+  chooseImgBtn2 = document.querySelector('.img-box')
 
 let brightness = '100',
   saturation = '100',
@@ -132,6 +133,7 @@ resetFilterBtn.addEventListener('click', resetFilter)
 saveImgBtn.addEventListener('click', saveImage)
 fileInput.addEventListener('change', loadImage)
 chooseImgBtn.addEventListener('click', () => fileInput.click())
+chooseImgBtn2.addEventListener('click', () => fileInput.click())
 
 const checkbox = document.getElementById('darkLight')
 checkbox.addEventListener('change', () => {
